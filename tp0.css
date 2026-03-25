@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+asdawd
+
+body {
+    background-color: tomato;
+    height: 100dvh;
+}
+
+
+header {
+    background-color: violet;
+
+    height: 10%;
+    padding: 10px;
+
+
+}
+
+main {
+    background-color: lightgray;
+    height: 80%;
+}
+
+.banner,
+.nosotros,
+.descripcion,
+.productos {
+    border: solid 1px black;
+    height: 25%;
+    padding: 10px;
+
+
+    .producto {
+        display: flex;
+        gap: 10px;
+    }
+
+    article {
+        border: solid 1px black;
+
+        flex: 1;
+
+        text-transform: 3em;
+
+        display: grid;
+    }
+
+    footer {
+        background-color: darkgray;
+        height: 10%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: darkgray;
+
+    }
+}
